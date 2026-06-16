@@ -1,3 +1,35 @@
 h1 {
     color: blue;
 }
+ #welcome-message {
+    font-size: 18px;
+    color: green;
+}
+#navbar {
+    text-decoration: none;
+    border: 1px solid rgb(25, 7, 7);
+    padding:  10px 20px;
+    margin: 10px;
+}
+#navbar a{
+    text-decoration: none;
+    color: rgb(168, 205, 48);
+    padding: 10px 20px;
+    margin: 20px;
+}
+.description {
+    font-size: 14px;
+    color: gray;
+}
+p{
+    border: 1px solid rgb(25, 7, 7);
+    padding: 20px 20px;
+    margin: 20px;
+    background-color: #f0f0f0;
+}
+
+#navbar a:hover{
+    background-color: rgb(180, 63, 145);
+    color: rgb(20, 43, 68);
+    color:aqua;
+}
