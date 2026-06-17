@@ -5,17 +5,31 @@ h1 {
     font-size: 18px;
     color: green;
 }
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+h1 {
+    color: blue;
+}
+ #welcome-message {
+    font-size: 18px;
+    color: green;
+}
 #navbar {
-    text-decoration: none;
-    border: 1px solid rgb(25, 7, 7);
-    padding:  10px 20px;
-    margin: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: #8c1c1c; /* A dark red similar to image */
+    padding: 15px 0;
+    margin-bottom: 50px;
 }
 #navbar a{
     text-decoration: none;
-    color: rgb(168, 205, 48);
+    color: white; /* White links like in the image */
     padding: 10px 20px;
-    margin: 20px;
+    margin: 0 10px;
+    font-size: 18px;
 }
 .description {
     font-size: 14px;
@@ -29,7 +43,46 @@ p{
 }
 
 #navbar a:hover{
-    background-color: rgb(180, 63, 145);
-    color: rgb(20, 43, 68);
-    color:aqua;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+.card{
+    background-color: white;
+    width: 350px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    border: 1px solid #ddd;
+}
+.card img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    display: block;
+}
+.card h2 {
+    margin: 25px 0 10px;
+    font-size: 28px;
+    color: #333;
+}
+.card h3 {
+    margin: 0 0 25px;
+    font-weight: normal;
+    font-size: 18px;
+    color: #666;
+}
+.card button{
+    margin-bottom: 30px;
+    padding: 10px 40px;
+    background-color: white;
+    border: 1px solid #999;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-image 0.3s;
+}
+.card button:hover{
+    background-color: #eee;
 }
